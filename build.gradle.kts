@@ -1,5 +1,5 @@
 plugins {
-    id("featherpatcher") version "0.0.1"
+    id("featherpatcher") version "0.0.0.1"
 }
 
 feather {
