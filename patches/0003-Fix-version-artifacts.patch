@@ -1,0 +1,35 @@
+From 2fc7826c057f68e30ddd8a4ef02d526ce217ab73 Mon Sep 17 00:00:00 2001
+From: Ryder Belserion <no-reply@ryderbelserion.com>
+Date: Fri, 5 May 2023 19:39:50 -0400
+Subject: [PATCH] Fix version artifacts
+
+---
+ build.gradle.kts    | 2 +-
+ settings.gradle.kts | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/build.gradle.kts b/build.gradle.kts
+index ab77a4b..4b22973 100644
+--- a/build.gradle.kts
++++ b/build.gradle.kts
+@@ -24,7 +24,7 @@ dependencies {
+     compileOnly("com.mojang:authlib:1.5.25")
+ 
+     compileOnly("com.github.MilkBowl:VaultAPI:1.7")
+-    compileOnly("net.zrips.CMILib:cmi-lib-api:1.2.5.4")
++    compileOnly("net.zrips.CMILib:cmi-api:1.2.5.4")
+     compileOnly("me.clip:placeholderapi:2.11.1")
+ }
+ 
+diff --git a/settings.gradle.kts b/settings.gradle.kts
+index 4f212ec..ed5b367 100644
+--- a/settings.gradle.kts
++++ b/settings.gradle.kts
+@@ -1 +1 @@
+-rootProject.name = "CMI"
+\ No newline at end of file
++rootProject.name = "CMI-API"
+\ No newline at end of file
+-- 
+2.40.0.windows.1
+
