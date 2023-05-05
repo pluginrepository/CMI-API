@@ -1,8 +1,8 @@
 plugins {
-    id("featherpatcher") version "0.0.1"
+    id("featherpatcher") version "0.0.0.2"
 }
 
-feather {
+patcher {
     this.datafolder(rootProject.projectDir.toPath())
 
     this.workspace("workspace")
